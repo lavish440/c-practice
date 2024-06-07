@@ -18,10 +18,10 @@ while true; do
 	if [[ -z "$LINE" ]]; then
 		break
 	fi
-
 	DESC="$DESC$LINE"
 done
 
+DESC="$(echo "$DESC" | fold -s -w 50)"
 
 git commit -m "[Exercise $EXERCISE] Solved Exercise $EXERCISE, Question $QUESTION" -m "Question: $DESC"
 
