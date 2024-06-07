@@ -23,6 +23,6 @@ while true; do
 done
 
 
-git commit -m "[Exercise $EXERCISE] Solved Exercise $EXERCISE, Question $QUESTION" -m "$DESC"
+git commit -m "[Exercise $EXERCISE] Solved Exercise $EXERCISE, Question $QUESTION" -m "Question: $DESC"
 
 echo "Successfully committed Exercise $EXERCISE, Question $QUESTION."
