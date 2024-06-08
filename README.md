@@ -1,6 +1,14 @@
-# ANSI C Programming Language Assignments
+# C Programming Language Assignments
 
-This repository contains solutions to the programming assignments from the book **"The ANSI C Programming Language"** by Brian W. Kernighan and Dennis M. Ritchie. The solutions are organized by chapters and exercises.
+This repository contains solutions to the programming assignments from the book **"C Programming Language, 2nd Edition"** by Brian W. Kernighan and Dennis M. Ritchie. The solutions are organized by chapters and exercises.
+
+![C Programming Language, 2nd Edition](cover.webp)
+
+## About the Book
+
+"The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie is a definitive reference guide and a popular book for learning C programming. Originally written in 1978, it continues to be a worldwide bestseller. The second edition, which includes updates for the ANSI standard, brings the classic original up to date.
+
+For more information, please refer to the book "The C Programming Language, 2nd Edition" by Brian W. Kernighan and Dennis M. Ritchie.
 
 ## Table of Contents
 
@@ -10,10 +18,6 @@ This repository contains solutions to the programming assignments from the book 
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Introduction
-
-The **ANSI C Programming Language** book is a classic text on C programming and has been widely used for learning the C language. This repository contains my solutions to the exercises provided in the book. The goal of this repository is to provide reference solutions and facilitate learning for others.
 
 ## Structure
 
