@@ -5,9 +5,9 @@
 #define OUT 0 /* outside a word */
 
 int main(int argc, char *argv[]) {
-  char lines;
-  char words;
-  char chars;
+  char lines = 0;
+  char words = 0;
+  char chars = 0;
 
   int state;
 
