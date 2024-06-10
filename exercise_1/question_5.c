@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main() {
   float fahr, celsius;
   float lower, upper, step;
   lower = 0;   /* lower limit of temperatuire scale */

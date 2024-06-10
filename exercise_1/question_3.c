@@ -3,7 +3,7 @@
 /* print Fahrenheit-Celsius table
 for fahr = 0, 20, ..., 300; floating-point version */
 
-int main(int argc, char *argv[]) {
+int main() {
   float fahr, celsius;
   float lower, upper, step;
   lower = 0;   /* lower limit of temperature scale */
