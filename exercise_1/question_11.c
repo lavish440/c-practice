@@ -4,7 +4,7 @@
 #define IN 1  /* inside a word */
 #define OUT 0 /* outside a word */
 
-int main(int argc, char *argv[]) {
+int main() {
   char lines = 0;
   char words = 0;
   char chars = 0;
