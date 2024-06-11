@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-  int c;
-  int last_c = '\0';
+int main()
+{
+    int c;
+    int last_c = '\0';
 
-  while ((c = getchar()) != EOF) {
-    if (c != ' ' || last_c != ' ') {
-      putchar(c);
+    while ((c = getchar()) != EOF)
+    {
+        if (c != ' ' || last_c != ' ')
+        {
+            putchar(c);
+        }
+
+        last_c = c;
     }
-
-    last_c = c;
-  }
-  return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
