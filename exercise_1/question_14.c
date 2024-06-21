@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  char histogram[94];
+  char histogram[95];
   int c, i, j;
 
   for (i = 0; i < 95; ++i)
