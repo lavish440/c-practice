@@ -6,7 +6,7 @@
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
 int main(void) {
-  int c, count;
+  int c, count = 0;
   int word_length[MAX_WORD_LENGTH + 1];
 
   for (int i = 0; i <= MAX_WORD_LENGTH; word_length[i++] = 0)
